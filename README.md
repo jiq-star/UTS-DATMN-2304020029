@@ -1,4 +1,4 @@
-# Prediksi Kualitas Wine Menggunakan Model Klasifikasi
+# Prediksi Kualitas Wine 
 
 ## Konteks
 
