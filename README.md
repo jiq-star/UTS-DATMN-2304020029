@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyP8mML6lDhk6gdGzxsIJcWs",
+      "authorship_tag": "ABX9TyPCjJzF2TSEVQcufNoe8Y4N",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -54,6 +54,22 @@
       "metadata": {
         "id": "lHlbMHvcLzqU"
       }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "import pandas as pd\n",
+        "import joblib\n",
+        "\n",
+        "from sklearn.preprocessing import StandardScaler\n",
+        "from sklearn.ensemble import RandomForestClassifier\n",
+        "from sklearn.metrics import accuracy_score, confusion_matrix, classification_report"
+      ],
+      "metadata": {
+        "id": "L0CA-_fqMcdz"
+      },
+      "execution_count": 1,
+      "outputs": []
     }
   ]
 }
