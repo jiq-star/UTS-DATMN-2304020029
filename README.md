@@ -1,4 +1,4 @@
-# Prediksi Kualitas Wine 
+# Prediksi Kualitas Wine Menggunakan Model Klasifikasi
 
 ## Konteks
 
@@ -249,14 +249,13 @@ Model Random Forest Classifier berhasil dibuat dan digunakan untuk memprediksi k
 
 Hasil prediksi pada dataset testing kemudian disimpan dalam bentuk file CSV dengan format sebagai berikut:
 
-```python
-hasil_prediksi = pd.DataFrame({
-    'Id': data_testing['Id'],
-    'quality': prediksi_quality
-})
-
-hasil_prediksi.head(200)
-```
+| | | Id | quality |
+|0| |---|---|
+|1| | 222 | 5 |
+|2| | 1514 | 6 |
+|3| | 417 | 5 |
+|...| |...| |...|
+|199| | 1168 | | 6 |
 
 Tabel tersebut menunjukkan bahwa setiap data pada dataset testing memiliki `Id` sebagai identitas dan `quality` sebagai hasil prediksi dari model.
 
