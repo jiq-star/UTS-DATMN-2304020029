@@ -249,11 +249,14 @@ Model Random Forest Classifier berhasil dibuat dan digunakan untuk memprediksi k
 
 Hasil prediksi pada dataset testing kemudian disimpan dalam bentuk file CSV dengan format sebagai berikut:
 
-| Id | quality |
-|---|---|
-| 222 | 5 |
-| 1514 | 6 |
-| 417 | 5 |
+```python
+hasil_prediksi = pd.DataFrame({
+    'Id': data_testing['Id'],
+    'quality': prediksi_quality
+})
+
+hasil_prediksi.head(200)
+```
 
 Tabel tersebut menunjukkan bahwa setiap data pada dataset testing memiliki `Id` sebagai identitas dan `quality` sebagai hasil prediksi dari model.
 
