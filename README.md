@@ -4,7 +4,7 @@
   "metadata": {
     "colab": {
       "provenance": [],
-      "authorship_tag": "ABX9TyOizOM1WgvCckH7ZIrrxlxu",
+      "authorship_tag": "ABX9TyP8mML6lDhk6gdGzxsIJcWs",
       "include_colab_link": true
     },
     "kernelspec": {
@@ -36,13 +36,24 @@
       }
     },
     {
-      "cell_type": "code",
-      "execution_count": null,
+      "cell_type": "markdown",
+      "source": [
+        "Konteks"
+      ],
       "metadata": {
-        "id": "4EKAFpflK8Uu"
-      },
-      "outputs": [],
-      "source": []
+        "id": "lbUG8bPNLymO"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Dalam industri wine, kualitas produk menjadi salah satu faktor penting yang dapat memengaruhi kepuasan konsumen dan nilai jual produk. Kualitas wine dapat dipengaruhi oleh berbagai karakteristik kimia, seperti tingkat keasaman, kadar alkohol, pH, kandungan sulfur dioxide, sulphates, dan beberapa faktor lainnya.\n",
+        "\n",
+        "Penilaian kualitas wine secara manual dapat membutuhkan waktu dan bergantung pada subjektivitas penilai. Oleh karena itu, pendekatan berbasis machine learning dapat digunakan untuk membantu memprediksi kualitas wine secara lebih cepat dan konsisten berdasarkan data karakteristik kimia yang tersedia."
+      ],
+      "metadata": {
+        "id": "lHlbMHvcLzqU"
+      }
     }
   ]
 }
