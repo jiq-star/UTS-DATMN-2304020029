@@ -249,13 +249,19 @@ Model Random Forest Classifier berhasil dibuat dan digunakan untuk memprediksi k
 
 Hasil prediksi pada dataset testing kemudian disimpan dalam bentuk file CSV dengan format sebagai berikut:
 
-| | | Id | quality |
-|0| |---|---|
-|1| | 222 | 5 |
-|2| | 1514 | 6 |
-|3| | 417 | 5 |
-|...| |...| |...|
-|199| | 1168 | | 6 |
+| No | Id   | quality |
+|---:|-----:|--------:|
+| 0  | 222  | 5 |
+| 1  | 1514 | 6 |
+| 2  | 417  | 5 |
+| 3  | 754  | 5 |
+| 4  | 516  | 6 |
+| ... | ... | ... |
+| 195 | 749  | 6 |
+| 196 | 1553 | 5 |
+| 197 | 1036 | 6 |
+| 198 | 1107 | 7 |
+| 199 | 1168 | 6 |
 
 Tabel tersebut menunjukkan bahwa setiap data pada dataset testing memiliki `Id` sebagai identitas dan `quality` sebagai hasil prediksi dari model.
 
