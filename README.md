@@ -44,20 +44,19 @@ Dataset terdiri dari variabel numerik berikut:
 Dari tiga model klasifikasi yang diuji, **Random Forest** dipilih sebagai model terbaik karena performa paling tinggi. Hasil prediksi kualitas untuk data testing, **5 baris pertama dan 5 baris terakhir**, adalah sebagai berikut:
 
 
-
-|  || Id   | quality |
-|----||------|---------|
-| 1 || 222  | 5       |
-| 2 || 1514 | 6       |
-| 3 || 417  | 5       |
-| 4 || 754  | 5       |
-| 5 || 516  | 5       |
-| ... ||...|...|
-| 280 || 1147  | 6       |
-| 281 || 296   | 5       |
-| 282 || 170   | 5       |
-| 283 || 1439  | 5       |
-| 284 || 946   | 7       |
+|   | Id   | quality |
+|---|------|---------|
+| 0 | 222  | 5       |
+| 1 | 1514 | 6       |
+| 2 | 417  | 5       |
+| 3 | 754  | 5       |
+| 4 | 516  | 5       |
+| ... | ... | ...     |
+| 281 | 1147 | 6     |
+| 282 | 296  | 5     |
+| 283 | 170  | 5     |
+| 284 | 1439 | 5     |
+| 285 | 946  | 7     |
 
 Tabel ini membantu produsen langsung melihat anggur mana yang diprediksi memiliki kualitas tinggi dan mana yang mungkin perlu perhatian tambahan dalam proses produksi.
 
