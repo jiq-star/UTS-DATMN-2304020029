@@ -1,4 +1,4 @@
-# Wine Quality Analysis – Storytelling
+# Wine Quality Analysis 
 
 ## Konteks
 
