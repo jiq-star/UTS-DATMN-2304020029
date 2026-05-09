@@ -52,11 +52,7 @@ Dari tiga model klasifikasi yang diuji, **Random Forest** dipilih sebagai model 
 | 417  | 5       |
 | 754  | 5       |
 | 516  | 5       |
-
-**5 baris terakhir**
-
-| Id    | quality |
-|-------|---------|
+|...|...|
 | 1147  | 6       |
 | 296   | 5       |
 | 170   | 5       |
