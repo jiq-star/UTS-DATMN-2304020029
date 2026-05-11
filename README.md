@@ -39,6 +39,16 @@ Dataset terdiri dari variabel numerik berikut:
 - `alcohol` : kadar alkohol  
 - `quality` : label kualitas anggur
 
+
+##Model 
+
+| No | Model         | Akurasi  |
+|----|---------------|----------|
+| 0  | KNN           | 0.482558 |
+| 1  | Random Forest | 0.656977 |
+| 2  | Decision Tree | 0.604651 |
+
+
 ## Hasil Prediksi
 
 Dari tiga model klasifikasi yang diuji, **Random Forest** dipilih sebagai model terbaik karena performa paling tinggi. Hasil prediksi kualitas untuk data testing, **5 baris pertama dan 5 baris terakhir**, adalah sebagai berikut:
