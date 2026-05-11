@@ -40,7 +40,7 @@ Dataset terdiri dari variabel numerik berikut:
 - `quality` : label kualitas anggur
 
 
-##Model 
+## Model 
 
 | No | Model         | Akurasi  |
 |----|---------------|----------|
